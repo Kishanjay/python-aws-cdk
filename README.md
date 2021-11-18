@@ -4,7 +4,10 @@ This repository contains the Dockerfile to an image with
 - Python3.9
 - PIP
 - AWS CDK
-- And NodeJS (to install CDK)
+- npm (to install CDK)
+- Docker (client)
+
+[Example project](https://gitlab.com/itslogical/aws-cdk-branch-deployments)
 
 # Dev
 
@@ -28,3 +31,4 @@ Push the images to DockerHub
 ```
 docker image push --all-tags kishauwn/python-aws-cdk
 ```
+
